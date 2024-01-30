@@ -62,7 +62,7 @@ exports.passwordVerfication = ({
 };
 
 exports.afterRegistrationSuccess = ({
-  title = 'Customize IDURAR ERP CRM or build your own SaaS',
+  title = 'Customize ERP CRM or build your own SaaS',
   name = '',
 }) => {
   return `

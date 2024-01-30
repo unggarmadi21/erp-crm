@@ -26,6 +26,7 @@ export default function LoginForm() {
           type="email"
           size="large"
         />
+        {/* <label htmlFor="">Example Email: admin@demo.com</label> */}
       </Form.Item>
       <Form.Item
         label={translate('password')}
@@ -41,6 +42,7 @@ export default function LoginForm() {
           placeholder={translate('password')}
           size="large"
         />
+        {/* <label htmlFor="">Example Password: </label> */}
       </Form.Item>
       <Form.Item>
         <Form.Item name="remember" valuePropName="checked" noStyle>

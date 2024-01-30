@@ -5,8 +5,8 @@ import { Button, Drawer, Layout, Menu } from 'antd';
 import { useAppContext } from '@/context/appContext';
 
 import useLanguage from '@/locale/useLanguage';
-import logoIcon from '@/style/images/logo-icon.svg';
-import logoText from '@/style/images/logo-text.svg';
+import logoIcon from '@/style/images/crm.png';
+import logoText from '@/style/images/crm-text.png';
 import { useNavigate } from 'react-router-dom';
 import useResponsive from '@/hooks/useResponsive';
 
@@ -148,10 +148,10 @@ function Sidebar({ collapsible, isMobile = false }) {
           key: 'taxes',
           label: <Link to={'/taxes'}>{translate('taxes')}</Link>,
         },
-        {
-          key: 'about',
-          label: <Link to={'/about'}>{translate('about')}</Link>,
-        },
+        // {
+        //   key: 'about',
+        //   label: <Link to={'/about'}>{translate('about')}</Link>,
+        // },
         // {
         //   key: 'advancedSettings',
         //   label: <Link to={'/settings/advanced'}>{translate('advanced_settings')}</Link>,
@@ -206,13 +206,13 @@ function Sidebar({ collapsible, isMobile = false }) {
       theme={'light'}
     >
       <div className="logo" onClick={() => navigate('/')} style={{ cursor: 'pointer' }}>
-        <img src={logoIcon} alt="Logo" style={{ marginLeft: '-5px', height: '40px' }} />
+        <img src={logoIcon} alt="Logo" style={{ marginLeft: '5px', height: '40px' }} />
 
         {!showLogoApp && (
           <img
             src={logoText}
             alt="Logo"
-            style={{ marginTop: '3px', marginLeft: '10px', height: '38px' }}
+            style={{ marginTop: '2px', marginLeft: '5px', height: '50px' }}
           />
         )}
       </div>

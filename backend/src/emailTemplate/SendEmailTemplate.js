@@ -1,5 +1,5 @@
-exports.SendInvoice = ({ title = 'Invoice from Idurar', name = '', time = new Date() }) => {
-  return `
+exports.SendInvoice = ({ title = 'Invoice from ', name = '', time = new Date() }) => {
+    return `
     <div>
 
         <head data-id="__react-email-head">
@@ -19,8 +19,8 @@ exports.SendInvoice = ({ title = 'Invoice from Idurar', name = '', time = new Da
     `;
 };
 
-exports.SendQuote = ({ title = 'Quote from Idurar', name = '', time = new Date() }) => {
-  return `
+exports.SendQuote = ({ title = 'Quote from ', name = '', time = new Date() }) => {
+    return `
     <div>
 
         <head data-id="__react-email-head">
@@ -40,8 +40,8 @@ exports.SendQuote = ({ title = 'Quote from Idurar', name = '', time = new Date()
     `;
 };
 
-exports.SendOffer = ({ title = 'Offer from Idurar', name = '', time = new Date() }) => {
-  return `
+exports.SendOffer = ({ title = 'Offer from', name = '', time = new Date() }) => {
+    return `
     <div>
 
         <head data-id="__react-email-head">
@@ -62,11 +62,11 @@ exports.SendOffer = ({ title = 'Offer from Idurar', name = '', time = new Date()
 };
 
 exports.SendPaymentReceipt = ({
-  title = 'Payment Receipt from Idurar',
-  name = '',
-  time = new Date(),
+    title = 'Payment Receipt from',
+    name = '',
+    time = new Date(),
 }) => {
-  return `
+    return `
     <div>
 
         <head data-id="__react-email-head">
