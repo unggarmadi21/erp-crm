@@ -22,7 +22,7 @@ export default function SideContent() {
           src={logo}
           alt="ERP CRM"
           style={{ margin: '0 auto 40px', display: 'block' }}
-          height={150}
+          height={180}
           width={220}
         />
         <div className="space40"></div>

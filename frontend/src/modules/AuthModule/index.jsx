@@ -38,7 +38,7 @@ const AuthModule = ({ authContent, AUTH_TITLE }) => {
               margin: '-70px auto 40px',
               display: 'block',
             }}
-            height={63}
+            height={130}
             width={220}
           />
           <div className="space10" />

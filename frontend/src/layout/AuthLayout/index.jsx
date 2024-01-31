@@ -5,12 +5,12 @@ export default function AuthLayout({ sideContent, children }) {
     <Layout>
       <Row>
         <Col
-          xs={{ span: 0, order: 2 }}
-          sm={{ span: 0, order: 2 }}
+          xs={{ span: 0, order: 1 }}
+          sm={{ span: 0, order: 1 }}
           md={{ span: 11, order: 1 }}
           lg={{ span: 12, order: 1 }}
           style={{
-            minHeight: '100vh',
+            minHeight: '1-0vh',
           }}
         >
           {sideContent}
