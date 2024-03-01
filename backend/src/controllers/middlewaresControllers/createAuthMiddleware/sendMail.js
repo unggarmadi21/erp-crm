@@ -7,7 +7,7 @@ const sendMail = async ({
   name,
   link,
   idurar_app_email,
-  subject = 'Verify your email | idurar',
+  subject = 'Verify your email',
   type = 'emailVerfication',
 }) => {
   const resend = new Resend(process.env.RESEND_API);
